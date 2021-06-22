@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './services/firebase'
+import App from "./App";
+import './services/firebase';
+import './styles/global.scss';
 
-ReactDOM.render(           //exibe alguma coisa dentro do html
+ReactDOM.render(           
   <React.StrictMode>
     <App />
   </React.StrictMode>,
